@@ -1,0 +1,19 @@
+#meal-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.meal{
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.meal img{
+    width: 300px;
+    
+}
+.detail-image{
+    width: 200px;
+    height: 200px;
+}
